@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <h2>Tina's College Football blog</h2>
+    <p>If you like Ohio State or USC, go away</p>
+    <ul>
+      {{#each blogs}}
+      <li><a href="blog/{{id}}">{{title}}</a></li>
+      {{/each}}
+    </ul>
+  </body>
+</html>

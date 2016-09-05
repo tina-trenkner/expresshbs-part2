@@ -12,5 +12,15 @@
       <li><a href="blog/{{id}}">{{title}}</a></li>
       {{/each}}
     </ul>
+
+    <table>
+        {{#each blogs}}
+      <tr>
+        <td><a href="blog/{{id}}">{{id}}</td>
+        <td><a href="blog/{{date}}">{{date}}</td>
+        <td><a href="blog/{{title}}">{{title}}</td>
+      </tr>
+        {{/each}}
+    </table>
   </body>
 </html>
